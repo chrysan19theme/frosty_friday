@@ -7,7 +7,7 @@ use schema week37;
 create or replace storage integration week37_si
 type = external_stage
 storage_provider = 's3'
-storage_aws_role_arn = 'arn￼iam::184545621756:role/week37'
+storage_aws_role_arn = 'arn:aws:iam::184545621756:role/week37'
 enabled = true
 storage_allowed_locations = ('s3://frostyfridaychallenges/challenge_37/');
 
